@@ -14,6 +14,9 @@
 
 LOCAL_PATH := $(call my-dir)
 
+# BootAnimation
+TARGET_BOOTANIMATION_NAME := horizontal-320x240
+
 # Inherit device configuration
 $(call inherit-product, device/huawei/msm7x25-common/cm_msm7x25-common.mk)
 
