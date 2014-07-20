@@ -1,0 +1,4 @@
+<resources>
+    <!-- Restore proper proximity behaviour -->
+    <bool name="config_device_has_fixed_keyboard">true</bool>
+</resources>
