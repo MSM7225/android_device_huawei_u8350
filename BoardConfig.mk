@@ -46,6 +46,6 @@ WIFI_DRIVER_MODULE_NAME := "dhd"
 WIFI_DRIVER_MODULE_ARG := "firmware_path=/system/etc/fw_4319.bin nvram_path=/system/etc/nv_4319.txt"
 
 # Kernel
-TARGET_KERNEL_SOURCE := kernel/huawei/u8350
+TARGET_KERNEL_SOURCE := kernel/huawei/u8150
 TARGET_KERNEL_CONFIG := cyanogen_u8350_defconfig
 BOARD_KERNEL_CMDLINE := mem=211M console=ttyMSM2,115200n8 androidboot.hardware=u8350
