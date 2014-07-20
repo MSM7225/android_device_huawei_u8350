@@ -18,15 +18,15 @@ LOCAL_PATH := $(call my-dir)
 $(call inherit-product, device/huawei/msm7x25-common/cm_msm7x25-common.mk)
 
 # Inherit device configuration
-$(call inherit-product, device/huawei/u8150/full_u8150.mk)
+$(call inherit-product, device/huawei/u8350/full_u8350.mk)
 
 # Device identifier. This must come after all inclusions
-PRODUCT_NAME := cm_u8150
-PRODUCT_DEVICE := u8150
-PRODUCT_MODEL := u8150
+PRODUCT_NAME := cm_u8350
+PRODUCT_DEVICE := u8350
+PRODUCT_MODEL := u8350
 PRODUCT_BRAND := Huawei
 PRODUCT_MANUFACTURER := Huawei
 PRODUCT_CHARACTERISTICS := phone
 
-PRODUCT_RELEASE_NAME := U8150/Ideos
-PRODUCT_VERSION_DEVICE_SPECIFIC := -U8150/Ideos
+PRODUCT_RELEASE_NAME := U8350/Ideos
+PRODUCT_VERSION_DEVICE_SPECIFIC := -U8350/Ideos
