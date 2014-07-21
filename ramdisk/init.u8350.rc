@@ -158,7 +158,6 @@ service akmd /system/bin/akmd2
     user compass
     group compass misc input
     disabled
-    oneshot
     
 service dhcp-service /system/bin/netcfg eth0 dhcp
     class main
