@@ -65,6 +65,9 @@ PRODUCT_COPY_FILES += \
 
 # Keylayouts
 PRODUCT_COPY_FILES += \
+    device/huawei/u8350/prebuilt/usr/keylayout/qwerty.kl:system/usr/keylayout/qwerty.kl \
+    device/huawei/u8350/prebuilt/usr/keylayout/qwerty_de.kl:system/usr/keylayout/qwerty_de.kl \
+    device/huawei/u8350/prebuilt/usr/keylayout/qwerty_fr.kl:system/usr/keylayout/qwerty_fr.kl \
     device/huawei/u8350/prebuilt/usr/keylayout/synaptics.kl:system/usr/keylayout/synaptics.kl \
     device/huawei/u8350/prebuilt/usr/keylayout/surf_keypad.kl:system/usr/keylayout/surf_keypad.kl \
     device/huawei/u8350/prebuilt/usr/keylayout/cypress-ts-innolux_Ver04.kl:system/usr/keylayout/cypress-ts-innolux_Ver04.kl \
