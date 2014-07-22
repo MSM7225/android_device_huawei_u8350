@@ -44,6 +44,12 @@ PRODUCT_COPY_FILES += \
 PRODUCT_PROPERTY_OVERRIDES += \
     wifi.interface=eth0
 
+# Correct Built-in KB KeyLayouts
+PRODUCT_COPY_FILES += \
+    device/huawei/u8350/prebuilt/usr/keylayout/qwerty.kl:system/usr/keylayout/qwerty.kl \
+    device/huawei/u8350/prebuilt/usr/keylayout/qwerty_fr.kl:system/usr/keylayout/qwerty_fr.kl \
+    device/huawei/u8350/prebuilt/usr/keylayout/qwerty_de.kl:system/usr/keylayout/qwerty_de.kl    
+    
 # Huawei Hardware setup
 PRODUCT_COPY_FILES += \
     device/huawei/u8350/prebuilt/etc/init.d/02setuphuawei:system/etc/init.d/02setuphuawei
