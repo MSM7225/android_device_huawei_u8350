@@ -57,5 +57,4 @@ PRODUCT_COPY_FILES += \
 # Init files
 PRODUCT_COPY_FILES += \
     device/huawei/u8350/ramdisk/init.u8350.rc:root/init.u8350.rc \
-    device/huawei/u8350/ramdisk/init.u8350.usb.rc:root/init.u8350.usb.rc \
-    device/huawei/u8350/ramdisk/ueventd.u8350.rc:root/ueventd.u8350.rc
+    device/huawei/u8350/ramdisk/init.u8350.usb.rc:root/init.u8350.usb.rc
